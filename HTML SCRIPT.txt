@@ -1,0 +1,633 @@
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Quiz",
+      "typicalAgeRange": "15-18", //ADD THE REQUIRED AGE RANGE
+      "educationalLevel": "intermediate", //ADD THE DIFFICULTY
+      "assesses": "Current-Electricity", //ADD THE TOPIC NAME
+      "educationalAlignment": [
+        {"@type": "AlignmentObject",
+          "alignmentType": "educationalSubject",
+          "targetName": "Current-Electricity" },
+         {"@type": "AlignmentObject",
+          "alignmentType": "educationalSubject",
+          "targetName": "Physics" }
+  //ADD THE TOPIC NAME IN “targetName” BLOCK,ADD ‘,’(COMMA) AND REPEAT THE HIGHLIGHTED //BLOCK FOR ADDING MORE TOPICS
+      ],
+      "name": "Quiz about Current-Electricity",//ADD THE //QUESTION TOPIC
+      "about": {
+        "@type": "Thing",
+        "name": "Current-Electricity"//ADD THE QUESTION TOPIC
+      },
+      "hasPart": [
+        {
+          "@type": "Question",
+          "eduQuestionType": "Multiple choice", //Question type
+          "learningResourceType": "Practice problem",
+          "name": "Current-Electricity 11",//ADD QUESTION NAME
+          "text": "$$ A resistance of 4Ω and a wire of length 5 metres and resistance 5Ω are joined in series and connected to a cell of e.m.f. 10 V and internal resistance 1Ω. A parallel combination of two identical cells is balanced across 300 cm of the wire. The e.m.f. E of each cell is$$" "<img src=\"https://1.bp.blogspot.com/-poxRmln-OMw/X5gcW6nRB_I/AAAAAAAAF7o/AkUlKwOvVYMNeD87dEaD0uhgB2UDoXKGACLcBGAsYHQ/s0/Q21%252Cfig.JPG" ,//ADD THE QUESTION TEXT
+          "comment": {
+            "@type": "Comment",
+           "Text": "This is a hint of question"//ADD HINT FOR QUESTIONS
+          },
+          "encodingFormat": "text/html",
+          "suggestedAnswer": [ //HERE PUT THE WRONG ANSWERS/OPTIONS
+            {
+              "@type": "Answer",
+              "position": 0,//OPTION POSITION 0,1,2,3
+              "encodingFormat": "text/markdown",
+              "text": "$$ 1.5 V$$",//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"   //COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "encodingFormat": "text/markdown",
+              "text": "$$ 0.67 V$$", //ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"//COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "encodingFormat": "text/markdown",
+              "text": "$$ 1.33 V$$",//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"//ADD COMMENT FOR ANSWER
+              }
+            }
+          ],
+          "acceptedAnswer": { //HERE PUT THE CORRECT ANSWER
+            "@type": "Answer",
+            "position": 1,
+            "encodingFormat": "text/markdown",
+            "text": "$$ 3.0 V$$",//ADD THE ANSWER BETWEEN “ “
+            "comment": {
+              "@type": "Comment",
+              "text": "This is a hint"//ADD COMMENT FOR ANSWER
+            }
+          }
+        },
+         {
+          "@type": "Question",
+          "eduQuestionType": "Multiple choice", //Question type
+          "learningResourceType": "Practice problem",
+          "name": "Current-Electricity 21",//ADD QUESTION NAME
+          "text": "$$ A resistance of 4Ω and a wire of length 5 metres and resistance 5Ω are joined in series and connected to a cell of e.m.f. 10 V and internal resistance 1Ω. A parallel combination of two identical cells is balanced across 300 cm of the wire. The e.m.f. E of each cell is$$" "<img src=\"https://1.bp.blogspot.com/-poxRmln-OMw/X5gcW6nRB_I/AAAAAAAAF7o/AkUlKwOvVYMNeD87dEaD0uhgB2UDoXKGACLcBGAsYHQ/s0/Q21%252Cfig.JPG"/> ,//ADD THE QUESTION TEXT
+          "comment": {
+            "@type": "Comment",
+           "Text": "This is a hint of question"//ADD HINT FOR QUESTIONS
+          },
+          "encodingFormat": "text/html",
+          "suggestedAnswer": [ //HERE PUT THE WRONG ANSWERS/OPTIONS
+            {
+              "@type": "Answer",
+              "position": 0,//OPTION POSITION 0,1,2,3
+              "encodingFormat": "text/markdown",
+              "text": "$$ 1.5 V$$",//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"   //COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "encodingFormat": "text/markdown",
+              "text": "$$   0.67 V$$", //ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"//COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "encodingFormat": "text/markdown",
+              "text": " $$  1.33 V$$",//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"//ADD COMMENT FOR ANSWER
+              }
+            }
+          ],
+          "acceptedAnswer": { //HERE PUT THE CORRECT ANSWER
+            "@type": "Answer",
+            "position": 1,
+            "encodingFormat": "text/markdown",
+            "text": " $$  3.0 V$$",//ADD THE ANSWER BETWEEN “ “
+            "comment": {
+              "@type": "Comment",
+              "text": "This is a hint"//ADD COMMENT FOR ANSWER
+            }
+          }
+        },
+         {
+          "@type": "Question",
+          "eduQuestionType": "Multiple choice", //Question type
+          "learningResourceType": "Practice problem",
+          "name": "Current-Electricity 22",//ADD QUESTION NAME
+          "text": "Two wires of the same material and equal length are joined in parallel combination. If one of them has half the thickness of the other and the thinner wire has a resistance of 8 ohms, the resistance of the combination is equal to": {
+            "@type": "Comment",
+           "Text": "This is a hint of question"//ADD HINT FOR QUESTIONS
+         },
+          "encodingFormat": "text/markdown",
+          "suggestedAnswer": [ //HERE PUT THE WRONG ANSWERS/OPTIONS
+            {
+              "@type": "Answer",
+              "position": 0,//OPTION POSITION 0,1,2,3
+              "encodingFormat": "text/markdown",
+              "text": "$$ 5/8 ohm$$",//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"   //COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "encodingFormat": "text/markdown",
+              "text": "$$  3/8 ohm$$", //ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"//COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "encodingFormat": "text/markdown",
+              "text": "  $$  8/3 ohm$$",//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"//ADD COMMENT FOR ANSWER
+              }
+            }
+          ],
+          "acceptedAnswer": { //HERE PUT THE CORRECT ANSWER
+            "@type": "Answer",
+            "position": 1,
+            "encodingFormat": "text/markdown",
+            "text": " $$  8/5 ohm$$",//ADD THE ANSWER BETWEEN “ “
+            "comment": {
+              "@type": "Comment",
+              "text": "This is a hint"//ADD COMMENT FOR ANSWER
+            }
+          }
+        },
+          {
+          "@type": "Question",
+          "eduQuestionType": "Multiple choice", //Question type
+          "learningResourceType": "Practice problem",
+          "name": "Current-Electricity 13",//ADD QUESTION NAME
+          "text": " In the circuit shown in figure, the points F is grounded. Which of the following is wrong statement?"  "<img src=\"https://1.bp.blogspot.com/-PIDfH5-BsZk/X5gcuERcWTI/AAAAAAAAF74/2EiiO3lLqnoJpkrWO01hAwPMWq5tfnDZgCLcBGAsYHQ/s0/Q23%252Cfig.JPG"/> ,//ADD THE QUESTION TEXT
+            "comment": {
+            "@type": "Comment",
+           "Text": "This is a hint of question"//ADD HINT FOR QUESTIONS
+          },
+          "encodingFormat": "text/html",
+          "suggestedAnswer": [ //HERE PUT THE WRONG ANSWERS/OPTIONS
+            {
+              "@type": "Answer",
+              "position": 0,//OPTION POSITION 0,1,2,3
+              "encodingFormat": "text/markdown",
+              "text": "$$   D is at 5V$$",//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"   //COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "encodingFormat": "text/markdown",
+              "text": "$$   The current in the circuit will be 0.5 A$$", //ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"//COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "encodingFormat": "text/markdown",
+              "text": "The potential at E is same whether or not F is rounded",//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"//ADD COMMENT FOR ANSWER
+              }
+            }
+          ],
+          "acceptedAnswer": { //HERE PUT THE CORRECT ANSWER
+            "@type": "Answer",
+            "position": 1,
+            "encodingFormat": "text/markdown",
+            "text": "E is at zero potential",//ADD THE ANSWER BETWEEN “ “
+            "comment": {
+              "@type": "Comment",
+              "text": "This is a hint"//ADD COMMENT FOR ANSWER
+            }
+          }
+        }
+       
+       
+        //ADD ‘,’(COMMA) AND REPEAT THE ABOVE HIGHLIGHTED PART,TO MARKUP MORE QUESTIONS
+      ]
+    },
+     
+      {
+          "@type": "Question",
+          "eduQuestionType": "Multiple choice", //Question type
+          "learningResourceType": "Practice problem",
+          "name": "Current-Electricity 14",//ADD QUESTION NAME
+          "text": "What is the equivalent resistance between the points A and B of the network" <img src=\"https://1.bp.blogspot.com/--c1DBu_inug/X5gc_VhL0II/AAAAAAAAF8I/xQ7FMQHY7xoAMOP3W_WMbturzVXQ5P8FQCLcBGAsYHQ/s0/Q24%252Cfig.JPG"/> //ADD THE QUESTION TEXT
+          "comment": {
+            "@type": "Comment",
+           "Text": "This is a hint of question"//ADD HINT FOR QUESTIONS
+          },
+          "encodingFormat": "text/html",
+          "suggestedAnswer": [ //HERE PUT THE WRONG ANSWERS/OPTIONS
+            {
+              "@type": "Answer",
+              "position": 0,//OPTION POSITION 0,1,2,3
+              "encodingFormat": "text/markdown",
+              "text": "$$  57/7 Ω$$",//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"   //COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "encodingFormat": "text/markdown",
+              "text": "$$   6 Ω$$", //ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"//COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "encodingFormat": "text/markdown",
+              "text": " $$   57/5 Ω$$",//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"//ADD COMMENT FOR ANSWER
+              }
+            }
+          ],
+          "acceptedAnswer": { //HERE PUT THE CORRECT ANSWER
+            "@type": "Answer",
+            "position": 1,
+            "encodingFormat": "text/markdown",
+            "text": " $$    8 Ω$$",//ADD THE ANSWER BETWEEN “ “
+            "comment": {
+              "@type": "Comment",
+              "text": "This is a hint"//ADD COMMENT FOR ANSWER
+            }
+          }
+        },
+          {
+          "@type": "Question",
+          "eduQuestionType": "Multiple choice", //Question type
+          "learningResourceType": "Practice problem",
+          "name": "Current-Electricity 25",//ADD QUESTION NAME
+          "text": "Which of the following statements is correct",//ADD THE QUESTION TEXT  
+          "comment": {
+            "@type": "Comment",
+           "Text": "This is a hint of question"//ADD HINT FOR QUESTIONS
+          },
+          "encodingFormat": "text/markdown",
+          "suggestedAnswer": [ //HERE PUT THE WRONG ANSWERS/OPTIONS
+            {
+              "@type": "Answer",
+              "position": 0,//OPTION POSITION 0,1,2,3
+              "encodingFormat": "text/markdown",
+              "text": " Liquids obey fully the ohm's law",//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"   //COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "encodingFormat": "text/markdown",
+              "text": " There is no relation between current and p.d. for liquids", //ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"//COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "encodingFormat": "text/markdown",
+              "text": " None of the above",//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"//ADD COMMENT FOR ANSWER
+              }
+            }
+          ],
+          "acceptedAnswer": { //HERE PUT THE CORRECT ANSWER
+            "@type": "Answer",
+            "position": 1,
+            "encodingFormat": "text/markdown",
+            "text": "Liquids obey partially the ohm's law",//ADD THE ANSWER BETWEEN “ “
+            "comment": {
+              "@type": "Comment",
+              "text": "This is a hint"//ADD COMMENT FOR ANSWER
+            }
+          }
+        },
+         
+          {
+          "@type": "Question",
+          "eduQuestionType": "Multiple choice", //Question type
+          "learningResourceType": "Practice problem",
+          "name": "Current-Electricity 26",//ADD QUESTION NAME
+          "text": "$$ In a Wheatstone bridge, P=90Ω,Q=110Ω,R=40Ω and S=60Ω and a cell of 4 V emf. Then the potential difference between the diagonal along which a galvanometer is connected is$$",//ADD THE QUESTION TEXT
+          "comment": {
+            "@type": "Comment",
+           "Text": "This is a hint of question"//ADD HINT FOR QUESTIONS
+          },
+          "encodingFormat": "text/markdown",
+          "suggestedAnswer": [ //HERE PUT THE WRONG ANSWERS/OPTIONS
+            {
+              "@type": "Answer",
+              "position": 1,//OPTION POSITION 0,1,2,3
+              "encodingFormat": "text/markdown",
+              "text": "$$  +0.2 V$$",//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"   //COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "encodingFormat": "text/markdown",
+              "text": "$$ -1 V$$", //ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"//COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "encodingFormat": "text/markdown",
+              "text": "$$ +1 V$$",//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"//ADD COMMENT FOR ANSWER
+              }
+            }
+          ],
+          "acceptedAnswer": { //HERE PUT THE CORRECT ANSWER
+            "@type": "Answer",
+            "position": 0,
+            "encodingFormat": "text/markdown",
+            "text": " $$   -0.2 V$$",//ADD THE ANSWER BETWEEN “ “
+            "comment": {
+              "@type": "Comment",
+              "text": "This is a hint"//ADD COMMENT FOR ANSWER
+            }
+          }
+        },
+         
+          {
+          "@type": "Question",
+          "eduQuestionType": "Multiple choice", //Question type
+          "learningResourceType": "Practice problem",
+          "name": "Current-Electricity 17",//ADD QUESTION NAME
+          "text": "$$ Two electric bulbs, one of 200 volt 40 watt and the other 200 volt 100 watt are connected in a house wiring circuit$$",//ADD THE QUESTION TEXT
+           
+          "comment": {
+            "@type": "Comment",
+           "Text": "This is a hint of question"//ADD HINT FOR QUESTIONS
+          },
+          "encodingFormat": "text/markdown",
+          "suggestedAnswer": [ //HERE PUT THE WRONG ANSWERS/OPTIONS
+            {
+              "@type": "Answer",
+              "position": 0,//OPTION POSITION 0,1,2,3
+              "encodingFormat": "text/markdown",
+              "text": "They have equal currents through them",//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"   //COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 1,
+              "encodingFormat": "text/markdown",
+              "text": " The resistance of the filaments in both the bulbs is same", //ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"//COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "encodingFormat": "text/markdown",
+              "text": " $$  The resistance of the filament in 100 watt bulb is more than the resistance in 40 watt bulb$$",//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"//ADD COMMENT FOR ANSWER
+              }
+            }
+          ],
+          "acceptedAnswer": { //HERE PUT THE CORRECT ANSWER
+            "@type": "Answer",
+            "position": 2,
+            "encodingFormat": "text/markdown",
+            "text": "$$  The resistance of the filament in 40 watt bulb is more than the resistance in 100 watt bulb$$",//ADD THE ANSWER BETWEEN “ “
+            "comment": {
+              "@type": "Comment",
+              "text": "This is a hint"//ADD COMMENT FOR ANSWER
+            }
+          }
+        },
+         
+             {
+          "@type": "Question",
+          "eduQuestionType": "Multiple choice", //Question type
+          "learningResourceType": "Practice problem",
+          "name": "Current-Electricity 17",//ADD QUESTION NAME
+          "text": "An electric current passes through a circuit containing two wires of the same material connected in parallel. If the lengths of the wires are in the ratio of 4/3 and radius of the wires are in the ratio of 2/3, then the ratio of the current passing through the wires will be",//ADD THE QUESTION TEXT
+       
+          "comment": {
+            "@type": "Comment",
+           "Text": "This is a hint of question"//ADD HINT FOR QUESTIONS
+          },
+          "encodingFormat": "text/markdown",
+          "suggestedAnswer": [ //HERE PUT THE WRONG ANSWERS/OPTIONS
+            {
+              "@type": "Answer",
+              "position": 0,//OPTION POSITION 0,1,2,3
+              "encodingFormat": "text/markdown",
+              "text": "$$   3$$",//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"   //COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "encodingFormat": "text/markdown",
+              "text": "$$   8/9$$", //ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"//COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "encodingFormat": "text/markdown",
+              "text": "None of these",//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"//ADD COMMENT FOR ANSWER
+              }
+            }
+          ],
+          "acceptedAnswer": { //HERE PUT THE CORRECT ANSWER
+            "@type": "Answer",
+            "position": 1,
+            "encodingFormat": "text/markdown",
+            "text": " $$   1/3$$",//ADD THE ANSWER BETWEEN “ “
+            "comment": {
+              "@type": "Comment",
+              "text": "This is a hint"//ADD COMMENT FOR ANSWER
+            }
+          }
+        },
+         
+             {
+          "@type": "Question",
+          "eduQuestionType": "Multiple choice", //Question type
+          "learningResourceType": "Practice problem",
+          "name": "Current-Electricity 29",//ADD QUESTION NAME
+          "text": "$$ A heater is operated with a power of 1000W in a 100V line. It is connected in combination with a resistance of 10Ω and a resistance R to a 100V line as shown in figure. What should be the value of R so, that the heater operates with a power of 62.5W$$" "<img src=\"https://1.bp.blogspot.com/-5p-jNtX5FvI/X5gd-ld0vmI/AAAAAAAAF8s/9152tGzJHF4YSjlMbWJJONqX1GOisFVfgCLcBGAsYHQ/s0/Q29%252Cfig.JPG" ,//ADD THE QUESTION TEXT
+           
+          "comment": {
+            "@type": "Comment",
+           "Text": "This is a hint of question"//ADD HINT FOR QUESTIONS
+          },
+          "encodingFormat": "text/html",
+          "suggestedAnswer": [ //HERE PUT THE WRONG ANSWERS/OPTIONS
+            {
+              "@type": "Answer",
+              "position": 0,//OPTION POSITION 0,1,2,3
+              "encodingFormat": "text/markdown",
+              "text": "$$   10Ω$$",//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"   //COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 1,
+              "encodingFormat": "text/markdown",
+              "text": "$$    62.5Ω$$", //ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"//COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "encodingFormat": "text/markdown",
+              "text": " $$     1/5Ω$$",//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"//ADD COMMENT FOR ANSWER
+              }
+            }
+          ],
+          "acceptedAnswer": { //HERE PUT THE CORRECT ANSWER
+            "@type": "Answer",
+            "position": 3,
+            "encodingFormat": "text/markdown",
+            "text": " $$     5Ω$$",//ADD THE ANSWER BETWEEN “ “
+            "comment": {
+              "@type": "Comment",
+              "text": "This is a hint"//ADD COMMENT FOR ANSWER
+            }
+          }
+        },
+         
+           
+             {
+          "@type": "Question",
+          "eduQuestionType": "Multiple choice", //Question type
+          "learningResourceType": "Practice problem",
+          "name": "Current-Electricity 30",//ADD QUESTION NAME
+          "text": "$$ A 100 watt bulb working on 200 volt and a 200 watt bulb working on 100 volt have$$",//ADD THE QUESTION TEXT
+           
+          "comment": {
+            "@type": "Comment",
+           "Text": "This is a hint of question"//ADD HINT FOR QUESTIONS
+          },
+          "encodingFormat": "text/markdown",
+          "suggestedAnswer": [ //HERE PUT THE WRONG ANSWERS/OPTIONS
+            {
+              "@type": "Answer",
+              "position": 0,//OPTION POSITION 0,1,2,3
+              "encodingFormat": "text/html",
+              "text":"$$ Resistances in the ratio of 4 :1$$" ,//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "This is a hint"   //COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 2,
+              "encodingFormat": "text/html",
+              "text": "$$   6.70 hrs$$", //ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "$$ Resistances in the ratio of 2 :1$$" //COMMENT FOR ANSWER
+              }
+            },
+            {
+              "@type": "Answer",
+              "position": 3,
+              "encodingFormat": "text/html",
+              "text": " $$      12.50 hrs$$",//ADD THE ANSWER
+              "comment": {
+                "@type": "Comment",
+                "text": "$$ Maximum current ratings in the ratio of 1 :2$$" //ADD COMMENT FOR ANSWER
+              }
+            }
+          ],
+          "acceptedAnswer": { //HERE PUT THE CORRECT ANSWER
+            "@type": "Answer",
+            "position": 1,
+            "encodingFormat": "text/html",
+            "text" : "$$ Maximum current ratings in the ratio of 1 :4$$"  “ “
+            "comment": {
+              "@type": "Comment",
+              "text": "This is a hint"//ADD COMMENT FOR ANSWER
+            }
+          }
+        },
+
+         
